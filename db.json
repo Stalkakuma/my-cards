@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "name": "Juozapas",
+      "surname": "Vidūnas",
+      "photo": "http://localhost:3000/1647257511704.jpg",
+      "occupation": "Front-end Developer",
+      "POB": "Lithuania",
+      "location": "Vilnius, Lithuania",
+      "media": 
+        {
+          "facebook": "https://www.facebook.com/juozapas.vidunas/",
+          "instagram": "https://www.instagram.com/stalkakuma/",
+          "github": "https://github.com/stalkakuma",
+          "linkedin": "https://www.linkedin.com/in/juozapas-vid%C5%ABnas-aa894721b/"
+        },
+      
+      "id": 0
+    }
+  ]
+}
