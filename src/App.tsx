@@ -1,26 +1,25 @@
-import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {Card} from 'components/Card/Card';
+import {useGetUsers} from 'utils/getUsers';
 
-function App() {
+export const App = () => {
+  const {data, error, isLoading} = useGetUsers();
+
+  if (error) {
+    return <div>We have an error...</div>;
+  }
+
+  if (isLoading) {
+    return <div>...</div>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <main className='app__container'>
+        <img src={logo} className='app__logo' alt='logo' />
+        <Card cardData={data[0]} />
+      </main>
     </div>
   );
-}
-
-export default App;
+};

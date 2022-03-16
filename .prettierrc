@@ -8,5 +8,14 @@
   "jsxSingleQuote": true,
   "trailingComma": "all",
   "bracketSpacing": false,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.scss"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
 }
