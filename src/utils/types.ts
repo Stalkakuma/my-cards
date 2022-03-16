@@ -5,6 +5,7 @@ export type DataTypes = {
   occupation: string;
   POB: string;
   location: string;
+  approved: boolean;
   media: MediaTypes;
 };
 

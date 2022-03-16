@@ -1,25 +1,35 @@
-@import "./index";
+@import '../../index';
 
 .card {
   color: $color-gray-100;
   background-color: $color-white;
-  filter: drop-shadow(0 2px 6px rgb(212 192 195 / 25%));
+  filter: drop-shadow(0 2px 6px $color-gray-200);
   border-radius: 8px;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 5px 50px 0 $color-primary, 0 0 0 7px rgb(107 74 255 / 50%);
+  width: 100%;
+
+  // box-shadow: 0 5px 50px 0 $color-primary, 0 0 0 7px rgb(107 74 255 / 50%);
 
   &__photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    box-shadow: 0 5px 50px 0 $color-primary, 0 0 0 7px rgb(107 74 255 / 50%);
+    box-shadow: 0 5px 50px 0 $color-primary, 0 0 0 7px $color-secondary;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     position: relative;
     transform: translateY(-50%);
+  }
+
+  &__content {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__details {
+    line-height: 1.5;
+    padding-bottom: 20px;
   }
 
   &__image {
@@ -40,10 +50,13 @@
   }
 
   &__social-media {
+    justify-content: center;
     align-self: center;
     display: inline-flex;
     flex-wrap: wrap;
     gap: 10px;
+    width: 100%;
+    padding-bottom: 20px;
   }
 
   &__icon {
@@ -53,6 +66,46 @@
 
     &:hover {
       transform: scale(1.2);
+    }
+  }
+
+  &__button-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  &__button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: all 0.3s;
+    color: $color-white;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &--blue {
+      background: linear-gradient(45deg, #1da1f2, #0e71c8);
+      box-shadow: 0 4px 30px rgb(19 127 212 / 40%);
+
+      &:hover {
+        box-shadow: 0 7px 30px rgb(19 127 212 / 75%);
+      }
+    }
+
+    &--orange {
+      background: linear-gradient(45deg, #d5135a, #f05924);
+      box-shadow: 0 4px 30px rgb(223 45 70 / 35%);
+
+      &:hover {
+        box-shadow: 0 7px 30px rgb(223 45 70 / 75%);
+      }
     }
   }
 }

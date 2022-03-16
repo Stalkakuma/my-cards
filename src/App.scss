@@ -1,4 +1,4 @@
-@import "./index";
+@import "./sassStyles/index";
 
 .app {
   text-align: center;
@@ -21,10 +21,61 @@
     justify-content: center;
     background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
   }
-}
 
-.app-link {
-  color: #61dafb;
+  &__card-row {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "a b c";
+  }
+
+  &__card {
+    grid-area: b;
+  }
+
+  &__button-left,
+  &__button-right {
+    align-self: center;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: scale 850ms ease-in;
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__button-left {
+    justify-self: flex-end;
+    grid-area: a;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__button-right {
+    transform: rotate(180deg);
+    justify-self: flex-start;
+    grid-area: c;
+
+    &:hover {
+      transform: rotate(180deg) scale(1.2);
+    }
+  }
+
+  &__arrow {
+    fill: $color-secondary;
+    filter: contrast(150%);
+    stroke: $color-gray-100;
+
+    &:active {
+      filter: brightness(180%);
+    }
+  }
 }
 
 @keyframes app-logo-spin {
