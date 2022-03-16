@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Stalkakuma/my-card.git/static/css/main.e0a65b4e.css",
-    "main.js": "/Stalkakuma/my-card.git/static/js/main.503eaacc.js",
-    "static/js/787.1714974e.chunk.js": "/Stalkakuma/my-card.git/static/js/787.1714974e.chunk.js",
-    "static/media/logo.svg": "/Stalkakuma/my-card.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/IG.svg": "/Stalkakuma/my-card.git/static/media/IG.04280b3638bcbd21a6cbfbca4fa93afb.svg",
-    "static/media/linkedin.svg": "/Stalkakuma/my-card.git/static/media/linkedin.3ec2f1701e5b2a4c73eee49c5702004b.svg",
-    "static/media/facebook.svg": "/Stalkakuma/my-card.git/static/media/facebook.f85cd8f477a35ccd89f903a95ec8fa47.svg",
-    "static/media/map.svg": "/Stalkakuma/my-card.git/static/media/map.075f88ad4e90e5afc6353b86cdde9613.svg",
-    "index.html": "/Stalkakuma/my-card.git/index.html",
-    "static/media/github.svg": "/Stalkakuma/my-card.git/static/media/github.e51b1895fe8246aae2697be7dde7801e.svg",
-    "main.e0a65b4e.css.map": "/Stalkakuma/my-card.git/static/css/main.e0a65b4e.css.map",
-    "main.503eaacc.js.map": "/Stalkakuma/my-card.git/static/js/main.503eaacc.js.map",
-    "787.1714974e.chunk.js.map": "/Stalkakuma/my-card.git/static/js/787.1714974e.chunk.js.map"
+    "main.css": "/my-card/static/css/main.e0a65b4e.css",
+    "main.js": "/my-card/static/js/main.ca9354da.js",
+    "static/js/787.1714974e.chunk.js": "/my-card/static/js/787.1714974e.chunk.js",
+    "static/media/logo.svg": "/my-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/IG.svg": "/my-card/static/media/IG.04280b3638bcbd21a6cbfbca4fa93afb.svg",
+    "static/media/linkedin.svg": "/my-card/static/media/linkedin.3ec2f1701e5b2a4c73eee49c5702004b.svg",
+    "static/media/facebook.svg": "/my-card/static/media/facebook.f85cd8f477a35ccd89f903a95ec8fa47.svg",
+    "static/media/map.svg": "/my-card/static/media/map.075f88ad4e90e5afc6353b86cdde9613.svg",
+    "static/media/github.svg": "/my-card/static/media/github.e51b1895fe8246aae2697be7dde7801e.svg",
+    "index.html": "/my-card/index.html",
+    "main.e0a65b4e.css.map": "/my-card/static/css/main.e0a65b4e.css.map",
+    "main.ca9354da.js.map": "/my-card/static/js/main.ca9354da.js.map",
+    "787.1714974e.chunk.js.map": "/my-card/static/js/787.1714974e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0a65b4e.css",
-    "static/js/main.503eaacc.js"
+    "static/js/main.ca9354da.js"
   ]
 }
