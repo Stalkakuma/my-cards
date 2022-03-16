@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/my-cards/static/css/main.5e52fb7a.css",
-    "main.js": "/my-cards/static/js/main.de7e53e4.js",
+    "main.js": "/my-cards/static/js/main.f0362cca.js",
     "static/js/787.1714974e.chunk.js": "/my-cards/static/js/787.1714974e.chunk.js",
+    "static/media/juozapelis.jpg": "/my-cards/static/media/juozapelis.2054b3bb438d7a5acb3a.jpg",
+    "static/media/doviliukas.jpg": "/my-cards/static/media/doviliukas.45a5d940dde323eae1c2.jpg",
     "static/media/IG.svg": "/my-cards/static/media/IG.04280b3638bcbd21a6cbfbca4fa93afb.svg",
     "static/media/linkedin.svg": "/my-cards/static/media/linkedin.3ec2f1701e5b2a4c73eee49c5702004b.svg",
     "static/media/facebook.svg": "/my-cards/static/media/facebook.f85cd8f477a35ccd89f903a95ec8fa47.svg",
@@ -11,11 +13,11 @@
     "static/media/github.svg": "/my-cards/static/media/github.e51b1895fe8246aae2697be7dde7801e.svg",
     "index.html": "/my-cards/index.html",
     "main.5e52fb7a.css.map": "/my-cards/static/css/main.5e52fb7a.css.map",
-    "main.de7e53e4.js.map": "/my-cards/static/js/main.de7e53e4.js.map",
+    "main.f0362cca.js.map": "/my-cards/static/js/main.f0362cca.js.map",
     "787.1714974e.chunk.js.map": "/my-cards/static/js/787.1714974e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e52fb7a.css",
-    "static/js/main.de7e53e4.js"
+    "static/js/main.f0362cca.js"
   ]
 }
