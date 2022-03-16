@@ -3,7 +3,7 @@
     {
       "name": "Juozapas",
       "surname": "Vidūnas",
-      "photo": "http://localhost:3000/1647257511704.jpg",
+      "photo": "./1647257511704.jpg",
       "occupation": "Front-end Developer",
       "POB": "Lithuania",
       "location": "Vilnius, Lithuania",
