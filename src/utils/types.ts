@@ -11,7 +11,7 @@ export type DataTypes = {
 
 type MediaTypes = {
   facebook: string;
-  instagram: string;
-  github: string;
-  linkedin: string;
+  instagram?: string;
+  github?: string;
+  linkedin?: string;
 };
