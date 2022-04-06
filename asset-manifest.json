@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-cards/static/css/main.5e52fb7a.css",
-    "main.js": "/my-cards/static/js/main.e3ddb55d.js",
+    "main.css": "/my-cards/static/css/main.9b18fb52.css",
+    "main.js": "/my-cards/static/js/main.5873d04c.js",
     "static/js/787.1714974e.chunk.js": "/my-cards/static/js/787.1714974e.chunk.js",
     "static/media/juozapelis.jpg": "/my-cards/static/media/juozapelis.2054b3bb438d7a5acb3a.jpg",
+    "static/media/jeli.jpg": "/my-cards/static/media/jeli.b9f4108122f417c99bfc.jpg",
     "static/media/doviliukas.jpg": "/my-cards/static/media/doviliukas.45a5d940dde323eae1c2.jpg",
     "static/media/IG.svg": "/my-cards/static/media/IG.04280b3638bcbd21a6cbfbca4fa93afb.svg",
     "static/media/linkedin.svg": "/my-cards/static/media/linkedin.3ec2f1701e5b2a4c73eee49c5702004b.svg",
@@ -12,12 +13,12 @@
     "static/media/arrow.svg": "/my-cards/static/media/arrow.ead3954231a6eaecbf366fef8c9686a9.svg",
     "static/media/github.svg": "/my-cards/static/media/github.e51b1895fe8246aae2697be7dde7801e.svg",
     "index.html": "/my-cards/index.html",
-    "main.5e52fb7a.css.map": "/my-cards/static/css/main.5e52fb7a.css.map",
-    "main.e3ddb55d.js.map": "/my-cards/static/js/main.e3ddb55d.js.map",
+    "main.9b18fb52.css.map": "/my-cards/static/css/main.9b18fb52.css.map",
+    "main.5873d04c.js.map": "/my-cards/static/js/main.5873d04c.js.map",
     "787.1714974e.chunk.js.map": "/my-cards/static/js/787.1714974e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e52fb7a.css",
-    "static/js/main.e3ddb55d.js"
+    "static/css/main.9b18fb52.css",
+    "static/js/main.5873d04c.js"
   ]
 }
